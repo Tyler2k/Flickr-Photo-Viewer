@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Patua+One);
+@media screen and (max-width: 380px) {
+    body h1 {
+        font-size: 2em;
+    }
+    body .grid {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+    body #container {
+        width: 100%;
+    }
+    body ul {
+        padding: 0;
+    }
+    body form {
+        font-size: .9em;
+    }
+    #search {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body h1 {
+        font-size: 2em;
+    }
+    body #container {
+        width: 100%;
+        text-align: center;
+    }
+    body ul {
+        padding: 0;
+    }
+    form {
+        font-size: 1em;
+    }
+}
+
+body {
+    background: #ffdd99;
+}
+
+
+/************
+   HEADER
+************/
+
+h1 {
+    font-family: "Oleo Script", sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+form,
+#submit {
+    text-align: center;
+    font-family: "Patua One", sans-serif;
+}
+
+#search {
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background: #b3ffcc;
+}
+
+
+/************
+   GALLERY
+************/
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid {
+    overflow: hidden;
+    width: 270px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center;
+    margin: 6px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #996633;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+
+.grid:hover {
+    background-color: #dfbe9f;
+}
+
+img {
+    vertical-align: middle;
+}
