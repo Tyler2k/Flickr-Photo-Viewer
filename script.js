@@ -6,7 +6,7 @@ $(document).ready(function() {
 
         evt.preventDefault();
         var searchTerm = $("#search").val();
-        var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne";
+        var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
         var flickrOptions = {
             tags: searchTerm,
             format: "json"
